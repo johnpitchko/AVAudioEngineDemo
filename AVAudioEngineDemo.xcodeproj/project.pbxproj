@@ -13,6 +13,7 @@
 		18C6B9851A77C67800D08E63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B9841A77C67800D08E63 /* Images.xcassets */; };
 		18C6B9881A77C67800D08E63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B9861A77C67800D08E63 /* LaunchScreen.xib */; };
 		18C6B9941A77C67800D08E63 /* AVAudioEngineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6B9931A77C67800D08E63 /* AVAudioEngineDemoTests.swift */; };
+		18C6B9A11A77D03200D08E63 /* sine440.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B9A01A77D03200D08E63 /* sine440.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		18C6B98D1A77C67800D08E63 /* AVAudioEngineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioEngineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6B9921A77C67800D08E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C6B9931A77C67800D08E63 /* AVAudioEngineDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioEngineDemoTests.swift; sourceTree = "<group>"; };
+		18C6B9A01A77D03200D08E63 /* sine440.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = sine440.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		18C6B97A1A77C67800D08E63 /* AVAudioEngineDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18C6B99F1A77D03200D08E63 /* Audio Files */,
 				18C6B97D1A77C67800D08E63 /* AppDelegate.swift */,
 				18C6B97F1A77C67800D08E63 /* ViewController.swift */,
 				18C6B9811A77C67800D08E63 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				18C6B9921A77C67800D08E63 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C6B99F1A77D03200D08E63 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C6B9A01A77D03200D08E63 /* sine440.aiff */,
+			);
+			path = "Audio Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				TargetAttributes = {
 					18C6B9771A77C67800D08E63 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ARWP59A6T9;
 					};
 					18C6B98C1A77C67800D08E63 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -195,6 +207,7 @@
 				18C6B9831A77C67800D08E63 /* Main.storyboard in Resources */,
 				18C6B9881A77C67800D08E63 /* LaunchScreen.xib in Resources */,
 				18C6B9851A77C67800D08E63 /* Images.xcassets in Resources */,
+				18C6B9A11A77D03200D08E63 /* sine440.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AVAudioEngineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AVAudioEngineDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +422,7 @@
 				18C6B9991A77C67800D08E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C6B99A1A77C67800D08E63 /* Build configuration list for PBXNativeTarget "AVAudioEngineDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +431,7 @@
 				18C6B99C1A77C67800D08E63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
