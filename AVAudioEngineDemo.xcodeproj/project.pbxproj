@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BF8FDE1AE9C50B00953865 /* Aston Martin DB9 in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FDD1AE9C50B00953865 /* Aston Martin DB9 */; };
 		18C6B97E1A77C67800D08E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6B97D1A77C67800D08E63 /* AppDelegate.swift */; };
 		18C6B9801A77C67800D08E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6B97F1A77C67800D08E63 /* ViewController.swift */; };
 		18C6B9831A77C67800D08E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B9811A77C67800D08E63 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BF8FDD1AE9C50B00953865 /* Aston Martin DB9 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Aston Martin DB9"; sourceTree = "<group>"; };
 		18C6B9781A77C67800D08E63 /* AVAudioEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6B97C1A77C67800D08E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C6B97D1A77C67800D08E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		18C6B99F1A77D03200D08E63 /* Audio Files */ = {
 			isa = PBXGroup;
 			children = (
+				18BF8FDD1AE9C50B00953865 /* Aston Martin DB9 */,
 				18C6B9A01A77D03200D08E63 /* sine440.aiff */,
 			);
 			path = "Audio Files";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BF8FDE1AE9C50B00953865 /* Aston Martin DB9 in Resources */,
 				18C6B9831A77C67800D08E63 /* Main.storyboard in Resources */,
 				18C6B9881A77C67800D08E63 /* LaunchScreen.xib in Resources */,
 				18C6B9851A77C67800D08E63 /* Images.xcassets in Resources */,
