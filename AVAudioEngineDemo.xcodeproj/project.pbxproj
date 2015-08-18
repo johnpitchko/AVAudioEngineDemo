@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18BF8FDE1AE9C50B00953865 /* Aston Martin DB9 in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FDD1AE9C50B00953865 /* Aston Martin DB9 */; };
+		18BF8FF21AE9D3CA00953865 /* db9_idle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE21AE9D3CA00953865 /* db9_idle.wav */; };
+		18BF8FF31AE9D3CA00953865 /* db9_limiter.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE31AE9D3CA00953865 /* db9_limiter.wav */; };
+		18BF8FF41AE9D3CA00953865 /* db9_offhigh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE41AE9D3CA00953865 /* db9_offhigh.wav */; };
+		18BF8FF51AE9D3CA00953865 /* db9_offidle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE51AE9D3CA00953865 /* db9_offidle.wav */; };
+		18BF8FF61AE9D3CA00953865 /* db9_offlow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE61AE9D3CA00953865 /* db9_offlow.wav */; };
+		18BF8FF71AE9D3CA00953865 /* db9_offmid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE71AE9D3CA00953865 /* db9_offmid.wav */; };
+		18BF8FF81AE9D3CA00953865 /* db9_offveryhigh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE81AE9D3CA00953865 /* db9_offveryhigh.wav */; };
+		18BF8FF91AE9D3CA00953865 /* db9_offverylow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FE91AE9D3CA00953865 /* db9_offverylow.wav */; };
+		18BF8FFA1AE9D3CA00953865 /* db9_onhigh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FEA1AE9D3CA00953865 /* db9_onhigh.wav */; };
+		18BF8FFB1AE9D3CA00953865 /* db9_onidle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FEB1AE9D3CA00953865 /* db9_onidle.wav */; };
+		18BF8FFC1AE9D3CA00953865 /* db9_onlow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FEC1AE9D3CA00953865 /* db9_onlow.wav */; };
+		18BF8FFD1AE9D3CA00953865 /* db9_onmid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FED1AE9D3CA00953865 /* db9_onmid.wav */; };
+		18BF8FFE1AE9D3CA00953865 /* db9_onmidhigh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FEE1AE9D3CA00953865 /* db9_onmidhigh.wav */; };
+		18BF8FFF1AE9D3CA00953865 /* db9_onveryhigh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FEF1AE9D3CA00953865 /* db9_onveryhigh.wav */; };
+		18BF90001AE9D3CA00953865 /* db9_onverylow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FF01AE9D3CA00953865 /* db9_onverylow.wav */; };
+		18BF90011AE9D3CA00953865 /* db9_turnover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18BF8FF11AE9D3CA00953865 /* db9_turnover.wav */; };
 		18C6B97E1A77C67800D08E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6B97D1A77C67800D08E63 /* AppDelegate.swift */; };
 		18C6B9801A77C67800D08E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6B97F1A77C67800D08E63 /* ViewController.swift */; };
 		18C6B9831A77C67800D08E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6B9811A77C67800D08E63 /* Main.storyboard */; };
@@ -28,7 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18BF8FDD1AE9C50B00953865 /* Aston Martin DB9 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Aston Martin DB9"; sourceTree = "<group>"; };
+		18BF8FE21AE9D3CA00953865 /* db9_idle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_idle.wav; path = "Aston Martin DB9/db9_idle.wav"; sourceTree = "<group>"; };
+		18BF8FE31AE9D3CA00953865 /* db9_limiter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_limiter.wav; path = "Aston Martin DB9/db9_limiter.wav"; sourceTree = "<group>"; };
+		18BF8FE41AE9D3CA00953865 /* db9_offhigh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_offhigh.wav; path = "Aston Martin DB9/db9_offhigh.wav"; sourceTree = "<group>"; };
+		18BF8FE51AE9D3CA00953865 /* db9_offidle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_offidle.wav; path = "Aston Martin DB9/db9_offidle.wav"; sourceTree = "<group>"; };
+		18BF8FE61AE9D3CA00953865 /* db9_offlow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_offlow.wav; path = "Aston Martin DB9/db9_offlow.wav"; sourceTree = "<group>"; };
+		18BF8FE71AE9D3CA00953865 /* db9_offmid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_offmid.wav; path = "Aston Martin DB9/db9_offmid.wav"; sourceTree = "<group>"; };
+		18BF8FE81AE9D3CA00953865 /* db9_offveryhigh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_offveryhigh.wav; path = "Aston Martin DB9/db9_offveryhigh.wav"; sourceTree = "<group>"; };
+		18BF8FE91AE9D3CA00953865 /* db9_offverylow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_offverylow.wav; path = "Aston Martin DB9/db9_offverylow.wav"; sourceTree = "<group>"; };
+		18BF8FEA1AE9D3CA00953865 /* db9_onhigh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onhigh.wav; path = "Aston Martin DB9/db9_onhigh.wav"; sourceTree = "<group>"; };
+		18BF8FEB1AE9D3CA00953865 /* db9_onidle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onidle.wav; path = "Aston Martin DB9/db9_onidle.wav"; sourceTree = "<group>"; };
+		18BF8FEC1AE9D3CA00953865 /* db9_onlow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onlow.wav; path = "Aston Martin DB9/db9_onlow.wav"; sourceTree = "<group>"; };
+		18BF8FED1AE9D3CA00953865 /* db9_onmid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onmid.wav; path = "Aston Martin DB9/db9_onmid.wav"; sourceTree = "<group>"; };
+		18BF8FEE1AE9D3CA00953865 /* db9_onmidhigh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onmidhigh.wav; path = "Aston Martin DB9/db9_onmidhigh.wav"; sourceTree = "<group>"; };
+		18BF8FEF1AE9D3CA00953865 /* db9_onveryhigh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onveryhigh.wav; path = "Aston Martin DB9/db9_onveryhigh.wav"; sourceTree = "<group>"; };
+		18BF8FF01AE9D3CA00953865 /* db9_onverylow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_onverylow.wav; path = "Aston Martin DB9/db9_onverylow.wav"; sourceTree = "<group>"; };
+		18BF8FF11AE9D3CA00953865 /* db9_turnover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = db9_turnover.wav; path = "Aston Martin DB9/db9_turnover.wav"; sourceTree = "<group>"; };
 		18C6B9781A77C67800D08E63 /* AVAudioEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAudioEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6B97C1A77C67800D08E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C6B97D1A77C67800D08E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +90,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18BF8FE11AE9D3B600953865 /* Aston Martin DB9 */ = {
+			isa = PBXGroup;
+			children = (
+				18BF8FE21AE9D3CA00953865 /* db9_idle.wav */,
+				18BF8FE31AE9D3CA00953865 /* db9_limiter.wav */,
+				18BF8FE41AE9D3CA00953865 /* db9_offhigh.wav */,
+				18BF8FE51AE9D3CA00953865 /* db9_offidle.wav */,
+				18BF8FE61AE9D3CA00953865 /* db9_offlow.wav */,
+				18BF8FE71AE9D3CA00953865 /* db9_offmid.wav */,
+				18BF8FE81AE9D3CA00953865 /* db9_offveryhigh.wav */,
+				18BF8FE91AE9D3CA00953865 /* db9_offverylow.wav */,
+				18BF8FEA1AE9D3CA00953865 /* db9_onhigh.wav */,
+				18BF8FEB1AE9D3CA00953865 /* db9_onidle.wav */,
+				18BF8FEC1AE9D3CA00953865 /* db9_onlow.wav */,
+				18BF8FED1AE9D3CA00953865 /* db9_onmid.wav */,
+				18BF8FEE1AE9D3CA00953865 /* db9_onmidhigh.wav */,
+				18BF8FEF1AE9D3CA00953865 /* db9_onveryhigh.wav */,
+				18BF8FF01AE9D3CA00953865 /* db9_onverylow.wav */,
+				18BF8FF11AE9D3CA00953865 /* db9_turnover.wav */,
+			);
+			name = "Aston Martin DB9";
+			sourceTree = "<group>";
+		};
 		18C6B96F1A77C67800D08E63 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +173,7 @@
 		18C6B99F1A77D03200D08E63 /* Audio Files */ = {
 			isa = PBXGroup;
 			children = (
-				18BF8FDD1AE9C50B00953865 /* Aston Martin DB9 */,
+				18BF8FE11AE9D3B600953865 /* Aston Martin DB9 */,
 				18C6B9A01A77D03200D08E63 /* sine440.aiff */,
 			);
 			path = "Audio Files";
@@ -207,11 +260,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BF8FDE1AE9C50B00953865 /* Aston Martin DB9 in Resources */,
 				18C6B9831A77C67800D08E63 /* Main.storyboard in Resources */,
+				18BF8FF31AE9D3CA00953865 /* db9_limiter.wav in Resources */,
+				18BF8FF51AE9D3CA00953865 /* db9_offidle.wav in Resources */,
+				18BF8FFB1AE9D3CA00953865 /* db9_onidle.wav in Resources */,
+				18BF8FFA1AE9D3CA00953865 /* db9_onhigh.wav in Resources */,
+				18BF8FF81AE9D3CA00953865 /* db9_offveryhigh.wav in Resources */,
 				18C6B9881A77C67800D08E63 /* LaunchScreen.xib in Resources */,
+				18BF8FF61AE9D3CA00953865 /* db9_offlow.wav in Resources */,
+				18BF8FF71AE9D3CA00953865 /* db9_offmid.wav in Resources */,
+				18BF8FFF1AE9D3CA00953865 /* db9_onveryhigh.wav in Resources */,
 				18C6B9851A77C67800D08E63 /* Images.xcassets in Resources */,
+				18BF8FF41AE9D3CA00953865 /* db9_offhigh.wav in Resources */,
+				18BF8FFC1AE9D3CA00953865 /* db9_onlow.wav in Resources */,
+				18BF8FF21AE9D3CA00953865 /* db9_idle.wav in Resources */,
+				18BF90001AE9D3CA00953865 /* db9_onverylow.wav in Resources */,
+				18BF90011AE9D3CA00953865 /* db9_turnover.wav in Resources */,
 				18C6B9A11A77D03200D08E63 /* sine440.aiff in Resources */,
+				18BF8FFD1AE9D3CA00953865 /* db9_onmid.wav in Resources */,
+				18BF8FF91AE9D3CA00953865 /* db9_offverylow.wav in Resources */,
+				18BF8FFE1AE9D3CA00953865 /* db9_onmidhigh.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

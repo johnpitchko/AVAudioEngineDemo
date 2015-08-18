@@ -14,28 +14,26 @@ class ViewController: UIViewController {
   let audioEngine = AVAudioEngine()
   let audioPlayerNode = AVAudioPlayerNode()
   let audioTimePitch = AVAudioUnitTimePitch()
-  let audioFile: AVAudioFile!
+  var audioFile: AVAudioFile!
   var audioBuffer: AVAudioPCMBuffer!
 
   @IBOutlet weak var playButton: UIButton!
   @IBOutlet weak var stopButton: UIButton!
   @IBOutlet weak var pitchSlider: UISlider!
-  
+  @IBOutlet weak var pitchValueLabel: UILabel!
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
-//    Make the slider vertical
-//    COMMENTING OUT FOR NOW BECAUSE NOT WORTH MY TIME
-//    var trans = CGAffineTransformMakeRotation(CGFloat(M_PI_2));
-//    pitchSlider.transform = trans;
+    pitchValueLabel.text = "0.0"
     
     NSLog("Initializing engine & connecting player node...")
     audioEngine.attachNode(audioPlayerNode)
     
     NSLog("Finding & loading audio file...")
     var fileError: NSError?
-    let audioFileUrl = NSBundle.mainBundle().URLForResource("sine440", withExtension: "aiff")
+    let audioFileUrl = NSBundle.mainBundle().URLForResource("db9_onlow", withExtension: "wav")
     NSLog("Bundle URL: %@", audioFileUrl!.path!)
     var audioFile = AVAudioFile(forReading: audioFileUrl, error: &fileError)
     
@@ -82,6 +80,8 @@ class ViewController: UIViewController {
     playButton.hidden = true
     stopButton.hidden = false
     
+    pitchValueLabel.text = audioTimePitch.pitch.description
+    
   }
   
   @IBAction func stop(sender: AnyObject) {
@@ -94,6 +94,7 @@ class ViewController: UIViewController {
   
   @IBAction func shiftPitch(sender: AnyObject) {
     audioTimePitch.pitch = pitchSlider.value
+    pitchValueLabel.text = audioTimePitch.pitch.description
     NSLog("Pitch value is now %f", audioTimePitch.pitch)
   }
 
